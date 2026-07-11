@@ -79,6 +79,7 @@ nav {
 }
 /* speakers section */
 .speaker{
+    max-width: 85%;
     padding: 0 120px;
     margin-bottom: 150px;
 }
@@ -127,7 +128,7 @@ nav {
 .offer-card{
     border: 2px solid #E5E7EB;
     border-radius: 15px;
-    width: 370px;
+    /* width: 370px; */
     display: grid;
     gap: 20px;
     padding: 30px;
@@ -137,7 +138,7 @@ nav {
     background-color: #0D1B2A;
     border: 2px solid #E5E7EB;
     border-radius: 15px;
-    width: 370px;
+    /* width: 370px; */
     display: grid;
     gap: 20px;
     padding: 30px;
@@ -150,4 +151,7 @@ nav {
 }
 .offer-card-p h5, p{
     color: #888888;
+}
+.secure-w{
+    max-width: 80%;
 }
