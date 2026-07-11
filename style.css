@@ -153,5 +153,27 @@ nav {
     color: #888888;
 }
 .secure-w{
+    margin: 0 auto;
     max-width: 80%;
+}
+/* footer starts here */
+.fparent{
+    background-color: #7cb5f3;
+    height: 150px;
+}
+.fparent > div > img{
+    height: auto;
+    width: auto;
+}
+.fbox{
+    display: flex;
+    margin: 30px;
+    padding-top: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+.copyright{
+text-align: center;
+margin: 10px auto;
+color: black;
 }
