@@ -120,10 +120,10 @@ nav {
     margin: 20px 0;
 }
 .offer-card-p{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
-    margin-bottom: 20px;
+    margin: 20px auto;
 }
 .offer-card{
     border: 2px solid #E5E7EB;
