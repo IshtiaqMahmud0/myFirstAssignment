@@ -1,0 +1,35 @@
+/* Reset style */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+
+/* navbar */
+nav > div > a {
+    text-decoration: none;
+    color: #575757;
+    margin: 0 12px;
+}
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 25px 100px;
+}
+
+
+/* Common style */
+.common-btn {
+  background-color: #1D4ED8;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
